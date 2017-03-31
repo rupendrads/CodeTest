@@ -15,7 +15,7 @@ Thanks for taking our code test! You'll find the instructions for what to create
     * The description of the item
 * If a user clicks on an item then show more detail:
     * The category of the item
-    * A list of the applicable Members if there are any. This is described in the Members collection of an event. For each Member use their ID property to call a separate service and show:
+    * A list of the applicable Members if there are any. This is described in the Members collection of an event. For each Member use their ID attribute to call a separate service and show:
         * Party
         * MemberFrom
         * FullTitle
