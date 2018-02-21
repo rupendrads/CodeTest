@@ -2,7 +2,7 @@
 
 ## Business Systems Development Code Test
 
-Thanks for taking our code test! You'll find the instructions for what to create below. Please allow 3 hours for this test.
+Thanks for taking our code test! You'll find the instructions for what to create below. Please allow about 3 hours for this test.
 
 ### Overview
 ------------
@@ -53,6 +53,7 @@ To obtain additional detail for a member using their ID use the URL
 
 ### Hints
 ---------
-* Using a framework like Angular will help with the frontend binding of information but jQuery can be used instead if preferred
+* Using a framework like AngularJS / Angular / React etc should be used for front-end data binding. If you don't know any of these frameworks use what you're most comfortable with. 
 * The service layer should do all the work of calling the services and returning the required information to the frontend. The service layer should combine the information from the two services. 
 * In the XML returned from the Calendar feed you'll need to filter items on their `Type` and `House` to ensure you only get `Main Chamber` items in the `Commons`
+* If you want JSON instead of XML returned from the services, you can replace .xml with .json in the provided urls.
