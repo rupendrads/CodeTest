@@ -2,7 +2,9 @@
 
 ## Business Systems Development Code Test
 
-Thanks for taking our code test! You'll find the instructions for what to create below. Please allow about 3 hours for this test.
+Thanks for taking our code test! You'll find the instructions for what to create below. You can spend as long as you like doing it, but we feel around 3-4 hours is the most sensible balance of proving your skills vs balancing with the rest of your weekend. If you cannot complete everything, stub out the areas you don't finish and use comments to give us an idea what you would have done.
+
+It is very important the code you give us compiles and runs!
 
 ### Overview
 ------------
@@ -48,12 +50,12 @@ To obtain the business items for a week use the following URL
 
 Help on the members name service can be found here [here](http://data.parliament.uk/membersdataplatform/memberquery.aspx)
 
-To obtain additional detail for a member using their ID use the URL 
+To obtain additional detail for a member using their ID use the URL, substituting 579 for the id of the member you are interested in
 * http://data.parliament.uk/membersdataplatform/services/mnis/members/query/id=579
 
 ### Hints
 ---------
-* Using a framework like AngularJS / Angular / React etc should be used for front-end data binding. If you don't know any of these frameworks use what you're most comfortable with. 
+* Use a framework like AngularJS / Angular / React if you feel comfortable doing so, it is NOT mandatory. We aren't testing you can use or know a JS framework, we want to see how you think and write your code to solve a problem.
 * The service layer should do all the work of calling the services and returning the required information to the frontend. The service layer should combine the information from the two services. 
 * In the XML returned from the Calendar feed you'll need to filter items on their `Type` and `House` to ensure you only get `Main Chamber` items in the `Commons`
-* If you want JSON instead of XML returned from the services, you can replace .xml with .json in the provided urls.
+* Unfortunately the Members Names service only supports XML at this time, you can get Json for the calendar by replacing .xml with .json in the calls you make to it.
